@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_HUB_USER = 'HediJ'
+        DOCKER_HUB_USER = 'hedij'
         IMAGE_NAME = 'cicd-app'
         IMAGE_TAG = "build-${BUILD_NUMBER}"
     }
