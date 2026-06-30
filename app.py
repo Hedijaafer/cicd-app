@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return jsonify({
-        "message": "Hello from CI/CD Pipeline App!",
+        "message": "Hello from my CI/CD Pipeline Project!",
         "status": "running",
         "version": "2.0.0"
     })
